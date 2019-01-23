@@ -9,9 +9,7 @@ output:
 
 This dataset contains Bureau of Internal Revenue district offices in the Philippines. This data set can be downloaded from: https://data.gov.ph/dataset/revenue-district-offices
 
-## Reading Data
-
-Reading data from the given url:  
+##Reading the Data
 
 ```{r, echo=TRUE, results=FALSE}
 data <- "https://data.gov.ph/sites/default/files/Revenue%20District%20Office_0.csv"
@@ -21,7 +19,6 @@ df <- read.csv(url(data))
  
 
 ## Plotting Map
-
 ```{r Leaflet, echo=TRUE}
 
 library(leaflet)
