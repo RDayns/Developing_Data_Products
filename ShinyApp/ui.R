@@ -15,12 +15,12 @@ sidebarLayout(
     
     # Select variable for y-axis
     selectInput(inputId = "y", 
-                label = "Y-axis:",
+                label = "Choose the variable in Y-axis:",
                 choices = c("Sepal.Length", "Sepal.Width", "Petal.Length", "Petal.Width"), 
                 selected = "Sepal.Length"),
     # Select variable for x-axis
     selectInput(inputId = "x", 
-                label = "X-axis:",
+                label = "Choose the variable in X-axis:",
                 choices = c("Sepal.Length", "Sepal.Width", "Petal.Length", "Petal.Width"), 
                 selected = "Petal.Length")
   ),

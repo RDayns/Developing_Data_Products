@@ -1,0 +1,46 @@
+What car is right for you?
+========================================================
+author: RAD
+date: January 27, 2019
+autosize: true
+
+About the Data Set
+========================================================
+
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). 
+
+https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html
+
+
+About the Data Set
+========================================================
+
+The mtcars dataset contains 32 observations and 11 numeric variables.
+
+Here's the first 6 observations of the data set.
+```{r echo=TRUE}
+head(mtcars)
+```
+
+About the Shiny Application
+========================================================
+The Shiny application is very easy to use. With this application, you can choose a car that might be right for your needs. You only need to describe your desired car based on the given characteristics: 
+- Gross Horsepower
+- Number of Forward Gears
+- Transmission
+- Number of Cylinders
+
+
+About the Shiny Application
+========================================================
+To use this Shiny web application, go to:
+
+https://rdyns.shinyapps.io/shinyapp/
+
+For the source code, go to:
+
+
+
+
+===THANKS!===
+
