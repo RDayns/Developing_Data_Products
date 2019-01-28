@@ -1,0 +1,10 @@
+name: mtcars
+title:
+username:
+account: rdyns
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 668156
+bundleId: 1838753
+url: https://rdyns.shinyapps.io/mtcars/
+when: 1548530540.7114
